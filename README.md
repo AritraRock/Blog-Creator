@@ -36,7 +36,7 @@ To start the FastAPI server, run:
 ```sh
 uvicorn main:app --reload
 ```
-###API endpoints
+### API endpoints
 Interactive API docs will be available at http://127.0.0.1:8000/docs (Swagger UI) and http://127.0.0.1:8000/redoc (ReDoc).
 
 ## Deployment
