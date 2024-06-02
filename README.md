@@ -34,8 +34,11 @@ This project is a backend API built using [FastAPI](https://fastapi.tiangolo.com
 ## Running the Application
 To start the FastAPI server, run:
 ```sh
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
+###API endpoints
+Interactive API docs will be available at http://127.0.0.1:8000/docs (Swagger UI) and http://127.0.0.1:8000/redoc (ReDoc).
+
 ## Deployment
 
 The application has been deployed on Vercel and is accessible at https://fastapi-blog-creator.vercel.app/.
